@@ -41,7 +41,7 @@ body {	font-family: Arial, Helvetica, sans-serif;
 #site_title {float: left; padding-top: 36px; padding-left:20px}
 #site_title img {float: left}
 
-#social_icons {
+#social_icons {font-size: 10px;
 
 }
 
