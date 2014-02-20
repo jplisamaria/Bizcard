@@ -1,14 +1,19 @@
+    <!--I used www.free-css.com as a starting point for this webpage.  I used the template "Business Core" found on page 172, (also on csstemplateheaven.com) primarily because it is clean and simple, and uses HTML5. I have replaced generic information with specific information, and deleted elements not used in the Business Card. 
+    
+    Since I am still learning HTML, I'll be commenting what I understand, and what I don't understand.-->
 <!DOCTYPE HTML>
 <head>
 <title>Lisa-Maria Mehta</title>
 <meta charset="utf-8">
-<!-- Google Fonts -->
+<!-- Google Fonts: Links to a free(?) google stylesheet. -->
 <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-<!-- CSS Files -->
+<!-- CSS Files: Links to local css stylesheet -->
 <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 <link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<!-- JS Files -->
-<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>-->
+<!-- JS Files: Javascript programs? -->
+  <!-- I commented out this next script because it didn't seem to do anything.
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>-->
+<!--I am not sure what these next 2 scripts do, but my webpage doesn't work without them.-->
 <script src="js/jquery.tools.min.js"></script>
 <script>
 $(function () {
@@ -18,7 +23,8 @@ $(function () {
     });
 });
 </script>
-<!--<script>
+<!-- I commented out this next script because it doesn't seem to do anything
+<script>
 $(document).ready(function () {
     $(".pane-list li").click(function () {
         window.location = $(this).find("a").attr("href");
@@ -28,112 +34,27 @@ $(document).ready(function () {
 </script>-->
 </head>
 <body>
-<!--<div class="header">
-  <div id="site_title"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
-  <!-- Main Menu ->
-  <ol id="menu">
-    <li class="active_menu_item"><a href="index.html">Home</a>
-      <!-- sub menu ->
-      <ol>
-        <li><a href="nivo.html">Nivo Slider</a></li>
-        <li><a href="ei-slider.html">EI Slider</a></li>
-        <li><a href="fullscreen-gallery.html">Fullscreen Slider</a></li>
-        <li><a href="image-frontpage.html">Static Image</a></li>
-      </ol>
-    </li>
-    <!-- END sub menu ->
-    <li><a href="#">Pages</a>
-      <!-- sub menu ->
-      <ol>
-        <li><a href="magazine.html">Magazine</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="full-width.html">Full Width Page</a></li>
-        <li><a href="columns.html">Columns</a></li>
-      </ol>
-    </li>
-    <!-- END sub menu ->
-    <li><a href="elements.html">Elements</a></li>
-    <li><a href="#">Galleries</a>
-      <!-- sub menu ->
-      <ol>
-        <li><a href="gallery-simple.html">Simple</a></li>
-        <li><a href="portfolio.html">Filterable</a></li>
-        <li><a href="gallery-fader.html">Fade Scroll</a></li>
-        <li><a href="video.html">Video</a></li>
-        <li class="last"><a href="photogrid.html">PhotoGrid</a></li>
-      </ol>
-    </li>
-    <!-- END sub menu ->
-    <li><a href="contact.html">Contact</a></li>
-  </ol>
-</div> -->
-<!-- END header -->
+<br><br>
 <div id="container">
   <!-- tab panes -->
   <div id="prod_wrapper">
     <div id="panes">
       <div> <img src="image.jpeg" alt="" height="300">
         <h2>Lisa&#8209Maria Mehta</h2>
-        <p>Lisa&#8209Maria loves coding.  After considering a career change for several years, she is finally taking the plunge to become a full-fledged software developer.  She is honing her skills with <a href="http://www.thisismetis.com/"> Metis</a>, a bootcamp-style partnership between <a href="http://thoughtbot.com/">thoughtbot</a> and <a href="http://www.kaplan.com/">Kaplan</a>.  In her previous lives, Lisa&#8209Maria was a project manager for low-income housing construction, and stayed home with her small children.  Lisa&#8209Maria, a graduate of the  <a href="http://sap.mit.edu/">MIT School of Architecture and Planning</a>, has exceptional analytical skills, and is a whiz at synthesizing and packaging information.</p>
-        <!--<p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p> -->
+        <p>Lisa&#8209Maria loves coding.  After considering a career change for several years, she is finally taking the plunge to become a full-fledged <b>Ruby on Rails</b> software developer.  She is honing her skills with <a href="http://www.thisismetis.com/"> Metis</a>, a bootcamp-style partnership between <a href="http://thoughtbot.com/">thoughtbot</a> and <a href="http://www.kaplan.com/">Kaplan</a>.  In her previous lives, Lisa&#8209Maria was a project manager for low-income housing construction, and stayed home with her small children.  Lisa&#8209Maria, a graduate of the  <a href="http://sap.mit.edu/">MIT School of Architecture and Planning</a>, has exceptional analytical skills, and is a whiz at synthesizing and packaging information.</p>
       </div>
-      <!--<div> <img src="img/demo/2.jpg" alt="">
-        <h2>Meet Our Team</h2>
-        <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
-        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
-      </div>
-      <div> <img src="img/demo/3.jpg" alt="">
-        <h2>Mauris elementum</h2>
-        <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
-        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
-      </div>
-      <div> <img src="img/demo/4.jpg" alt="">
-        <h2>Nam tempor nibh</h2>
-        <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
-        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
-      </div>
-      <div> <img src="img/demo/5.jpg" alt="">
-        <h2>Supercar</h2>
-        <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
-        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
-      </div>
-    </div>-->
     <!-- END tab panes -->
     <br clear="all">
     <!-- navigator -->
     <div id="prod_nav">
       <ul>
-        <!--<li><a href="#1"> <img src="img/demo/1.jpg" width="160" alt=""><strong>Class aptent</strong> $ 199</a></li>
-        <li><a href="#2"><img src="img/demo/2.jpg" width="160" alt=""><strong>Sed dui risus</strong> $ 125</a></li>
-        <li><a href="#3"><img src="img/demo/3.jpg" width="160" alt=""><strong>Pellentesque quis</strong> $ 480</a></li>
-        <li><a href="#4"><img src="img/demo/4.jpg" width="160" alt=""><strong>Mauris elementum</strong> $ 1099</a></li>
-        <li><a href="#5"><img src="img/demo/5.jpg" width="160" alt=""><strong>Cras et malesuada</strong> $ 99</a></li> -->
+        <!--There was an unordered list here, but if I tried to get rid of this div, everything above went away also, so I kept it as an empty div. -->
       </ul>
     </div>
     <!-- END navigator -->
   </div>
   <!-- END prod wrapper -->
   <div style="clear:both"></div>
-  <!--<div class="one-third">
-    <h2>Business Solutions</h2>
-    <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida.</p>
-    <p style="text-align:right; margin-right: 15px"><a href="#" class="button_small">Find out more</a></p>
-  </div>
-  <div class="one-third">
-    <h2>Become a Partner</h2>
-    <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida.</p>
-    <p style="text-align:right; margin-right: 15px"><a href="#" class="button_small">Contact Us Today</a></p>
-  </div>
-  <div class="one-third last">
-    <h2>Latest News</h2>
-    <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida.</p>
-    <p style="text-align:right; margin-right: 15px"><a href="#" class="button_small">Read Article</a></p>
-  </div> -->
-  <!--<div style="clear:both"></div>-->
-  <!--<div class="box_highlight" style="margin-top:40px">
-    <h2 style="text-align:center">Some kind of sales pitch goes here!</h2>
-  </div> -->
-  <!--<div style="clear:both; height: 20px"></div> -->
 </div>
 <!-- END container -->
 <div id="footer">
@@ -144,14 +65,12 @@ $(document).ready(function () {
       <li><a href="http://bostonrb.org/">Boston Ruby Group</a></li>
       <li><a href="http://www.railsbridgeboston.org/">RailsBridge Boston</a></li>
       <li><a href="http://www.meetup.com/Boston-Ruby-Women/">Boston Ruby Women</a></li>
-      <!--<li><a href="#">Salim Aritu</a></li>-->
     </ul>
   </div>
   <!-- Second Column -->
   <div class="one-fourth">
     <h3>Useful Links</h3>
     <ul class="footer_links">
-      <!--<li><a href="">Lorem Ipsum</a></li>-->
       <li><a href="http://learncodethehardway.org/">Learn Code the Hard Way</a></li>
       <li><a href="http://stackoverflow.com/">stack<b>overflow</b></a></li>
       <li><a href="http://www.safaribooksonline.com/">Safari Books Online</a></li>
@@ -175,8 +94,7 @@ $(document).ready(function () {
     <a href="http://www.linkedin.com/pub/lisa-maria-mehta/69/bba/a37"><img src="img/icon_in.png" alt=""></a> 
     <a href="https://twitter.com/jplisamaria"><img src="img/icon_twitter.png" alt=""></a>
     <a href="https://plus.google.com/113260731877375901724"><img src="img/icon_gplus-32.png" alt=""></a> <br></div>
-    <div id="social_icons"> <br><br><br><br><br><br><br>Theme by <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a><!--<br>
-      Photos © <a href="http://dieterschneider.net">Dieter Schneider</a> --></div> 
+    <div id="social_icons"> <br><br><br><br><br><br><br>Theme by <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a></div> 
   <div style="clear:both"></div>
 </div>
 <!-- END footer -->
